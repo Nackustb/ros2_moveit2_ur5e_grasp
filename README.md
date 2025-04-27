@@ -115,12 +115,13 @@ sudo apt install ros-humble-octomap-*
 
 ------
 
-## 6. 安装深度相机驱动（示例）
+## 6. 安装深度相机驱动与目标检测环境（示例）
 
 以 RealSense 相机为例（如果你用的是别的如 Orbbec，相应替换）：
 
 ```
 sudo apt install ros-humble-realsense2-camera
+pip install ultralytics
 ```
 
 ------
