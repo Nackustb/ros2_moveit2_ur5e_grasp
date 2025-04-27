@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/nack/UR5e_Vision_Assemble/install/realsense2_camera_msgs/include/**",
+        "/home/nack/UR5e_Vision_Assemble/install/gazebo_version_helpers/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/nack/UR5e_Vision_Assemble/src/libs/gazebo_grasp_plugin/include/**",
+        "/home/nack/UR5e_Vision_Assemble/src/libs/gazebo_version_helpers/include/**",
+        "/home/nack/UR5e_Vision_Assemble/src/libs/realsense_gazebo_plugin/include/**",
+        "/home/nack/UR5e_Vision_Assemble/src/ur5e_gripper_control/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

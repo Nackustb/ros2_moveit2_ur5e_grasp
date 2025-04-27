@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>gazebo_version_helpers</name>
+  <version>0.0.0</version>
+  <description>The gazebo_version_helpers package</description>
+
+  <maintainer email="jenny@todo.todo">jenny</maintainer>
+
+  <license>TODO</license>
+
+  <depend>rclcpp</depend>
+  <depend>gazebo_ros_pkgs</depend>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>ur5e_gripper_moveit_config</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="2249314748@qq.com">nack</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  
+  <exec_depend>ros2launch</exec_depend>
+  <exec_depend>joint_state_publisher</exec_depend>
+  <exec_depend>joint_state_publisher_gui</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>topic_tools</exec_depend>
+  <exec_depend>xacro</exec_depend>
+  
+  <exec_depend>robotiq_description</exec_depend>
+  <exec_depend>robotiq_moveit_config</exec_depend>
+  <exec_depend>ur5e_gripper_description</exec_depend>
+
+  <exec_depend>realsense2_description</exec_depend>
+  <exec_depend>realsense_gazebo_plugin</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  
+  <depend>gazebo_ros</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+    <!-- gazebo_ros_paths_plugin automatically adds these to
+    GAZEBO_PLUGIN_PATH and GAZEBO_MODEL_PATH when you do this export inside
+    the package.xml file. You can than use URIs of type model://my_package/stuff. -->
+    <!-- https://answers.gazebosim.org/question/6568/uri-paths-to-packages-in-the-sdf-model-file/ -->
+    <gazebo_ros                                                                 
+        gazebo_plugin_path="${prefix}/lib"
+        gazebo_model_path="${prefix}/.." /> 
+  </export>
+
+
+</package>

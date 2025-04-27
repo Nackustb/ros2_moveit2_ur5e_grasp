@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/humble/include/**",
+        "/home/nack/桌面/ros2_moveit2_ur5e_grasp/src/sim_models/gazebo_grasp_plugin/include/**",
+        "/home/nack/桌面/ros2_moveit2_ur5e_grasp/src/sim_models/gazebo_version_helpers/include/**",
+        "/home/nack/桌面/ros2_moveit2_ur5e_grasp/src/sim_models/realsense_gazebo_plugin/include/**",
+        "/home/nack/桌面/ros2_moveit2_ur5e_grasp/src/ur5e_gripper_control/include/**",
+        "/home/nack/桌面/ros2_moveit2_ur5e_grasp/src/ur5e_octomap_moveit/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
