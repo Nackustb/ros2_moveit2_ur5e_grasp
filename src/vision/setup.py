@@ -20,8 +20,8 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='nack',
-    maintainer_email='2249314748@qq.com',
+    maintainer='xiaobaige',
+    maintainer_email='zitongbai@outlook.com',
     description='TODO: Package description',
     license='TODO: License declaration',
     entry_points={
