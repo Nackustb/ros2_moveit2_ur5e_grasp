@@ -48,6 +48,9 @@ int main(int argc, char **argv) {
     }
     node->grasp(0.36);
     rclcpp::sleep_for(std::chrono::seconds(1));
+    //std::vector<double> lift_pose = cube_pose_list[i];
+    //lift_pose[2] += 0.2;  // 在z轴上抬10厘米
+    //node->plan_and_execute(lift_pose);
 
     if (i < target_pose_list.size()) {
       bool place_success = node->plan_and_execute(target_pose_list[i]);

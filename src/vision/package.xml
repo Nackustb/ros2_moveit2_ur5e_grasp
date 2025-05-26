@@ -4,7 +4,7 @@
   <name>vision</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="zitongbai@outlook.com">xiaobaige</maintainer>
+  <maintainer email="2249314748@qq.com">nack</maintainer>
   <license>TODO: License declaration</license>
 
   <exec_depend>rclpy</exec_depend>

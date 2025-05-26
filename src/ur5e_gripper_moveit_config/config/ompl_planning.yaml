@@ -55,7 +55,7 @@ planner_configs:
   longest_valid_segment_fraction: 0.005
   
 ur_manipulator:
-  default_planner_config: RRTConnectkConfigDefault
+  default_planner_config: RRTstarkConfigDefault
   planning_attempts: 10      # 尝试多次
   planning_time: 3.0         # 规划超时时间拉长一点
   planner_configs:

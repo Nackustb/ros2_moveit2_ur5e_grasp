@@ -77,8 +77,8 @@ class ObjDetect:
 
 if __name__ == "__main__":
     # 模型路径
-    model_path = "/home/nack/ros2_moveit2_ur5e_grasp/src/vision/vision/yolov11/models/best.pt"
-    image_path = "/home/nack/ros2_moveit2_ur5e_grasp/src/vision/vision/1.png"  # 替换为你的本地图像路径
+    model_path = "/home/nack/UR5e_Vision_Assemble/src/vision/vision/yolov11/models/best.pt"
+    image_path = "/home/nack/UR5e_Vision_Assemble/src/vision/vision/1.png"  # 替换为你的本地图像路径
 
     # 创建并运行检测对象
     obj_detect = ObjDetect(model_path)

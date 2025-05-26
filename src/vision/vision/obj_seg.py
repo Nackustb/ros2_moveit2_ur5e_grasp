@@ -25,7 +25,7 @@ from pathlib import Path
 
 # 使用 Path() 让 ROOT 成为 Path 类型
 FILE = Path(__file__).resolve()
-ROOT = Path("/home/nack/ros2_moveit2_ur5e_grasp/src/vision/vision")
+ROOT = Path("/home/nack/UR5e_Vision_Assemble/src/vision/vision")
 if str(ROOT) not in sys.path:
     sys.path.append(str(ROOT))
 
